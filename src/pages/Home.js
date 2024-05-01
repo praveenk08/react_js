@@ -89,8 +89,8 @@ class Home extends React.Component{
                         </div>
                         <h3 className="lh-base mb-0">of working experience as a web designer & developer</h3>
                     </div>
-                    <p className="mb-4">•Web Application Product Development on technologies PHP.
-                    •Have expertise in web (Proficient in PHP Framework CodeIgniter ) technologies and have performed programming, database designing and handling, estimation, testing and support.</p>
+                    <p className="mb-4">Web Application Product Development on technologies PHP.
+                    •Have expertise in web (Proficient in PHP Framework CodeIgniter) technologies and have performed programming, database designing and handling, estimation, testing and support.</p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>Afordable Prices</p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>High Quality Product</p>
                     <p className="mb-3"><i className="far fa-check-circle text-primary me-3"></i>On Time Project Delivery</p>
@@ -107,14 +107,14 @@ class Home extends React.Component{
                     </div>
                     <div className="d-flex align-items-center mb-3">
                         <h5 className="border-end pe-3 me-3 mb-0">Happy Clients</h5>
-                        <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">5+</h2>
+                        <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">10+</h2>
                     </div>
-                    <p className="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p>
+                    {/* <p className="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p> */}
                     <div className="d-flex align-items-center mb-3">
                         <h5 className="border-end pe-3 me-3 mb-0">Projects Completed</h5>
                         <h2 className="text-primary fw-bold mb-0" data-toggle="counter-up">15+</h2>
                     </div>
-                    <p className="mb-0">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p>
+                    {/* <p className="mb-0">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p> */}
                 </div>
             </div>
         </div>
@@ -553,8 +553,8 @@ class Home extends React.Component{
                     <hr className="w-100"/>
                     <p className="mb-2">Follow me:</p>
                     <div className="d-flex pt-2">
-                        {/* <a className="btn btn-square btn-primary me-2" href=""><i className="fab fa-twitter"></i></a>
-                        <a className="btn btn-square btn-primary me-2" href=""><i className="fab fa-facebook-f"></i></a> */}
+                        {/* <a className="btn btn-square btn-primary me-2" href="https://twitter.com/Pk46066"><i className="fab fa-twitter"></i></a>
+                        <a className="btn btn-square btn-primary me-2" href="https://www.facebook.com/Estherpk08"><i className="fab fa-facebook-f"></i></a> */}
                         {/* <a className="btn btn-square btn-primary me-2" href=""><i className="fab fa-facebook-f"></i></a> */}
                         <a className="btn btn-square btn-primary me-2" href="https://github.com/praveenk08"><i className="fab fa-github"></i></a>
                         <a className="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/praveen-kumar08/"><i className="fab fa-linkedin-in"></i></a>
@@ -597,18 +597,6 @@ class Home extends React.Component{
             </div>
         </div>
     </div>
-
-
-    {/* <div className="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
-        <div className="container-xxl pt-5 px-0">
-            <div className="bg-dark">
-                <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                frameborder="0" style={{width: "100%", height: "450px", border:"0"}} allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
-            </div>
-        </div>
-    </div> */}
 
     <div className="container-fluid bg-dark text-white py-4">
             <div className="container">
