@@ -12,7 +12,7 @@ class Home extends React.Component{
 
     <nav className="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.html" className="navbar-brand d-block d-lg-none">
-            <h1 className="text-primary fw-bold m-0">ProMan</h1>
+            <h1 className="text-primary fw-bold m-0">Praveen</h1>
         </a>
         <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
@@ -21,16 +21,17 @@ class Home extends React.Component{
             <div className="navbar-nav ms-auto py-0">
                 <a href="#home" className="nav-item nav-link active">Home</a>
                 <a href="#about" className="nav-item nav-link">About</a>
-                <a href="#skill" className="nav-item nav-link">Skills</a>
-                <a href="#service" className="nav-item nav-link">Services</a>
+               
+                {/* <a href="#service" className="nav-item nav-link">Services</a> */}
             </div>
             <a href="index.html" className="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
                 <h1 className="text-primary fw-bold m-0">Praveen</h1>
             </a>
-            <div className="navbar-nav me-auto py-0">
-                <a href="#project" className="nav-item nav-link">Projects</a>
+            <div className="navbar-nav me-auto py-0"> 
+                <a href="#skill" className="nav-item nav-link">Skills</a>
+                {/* <a href="#project" className="nav-item nav-link">Projects</a>
                 <a href="#team" className="nav-item nav-link">Team</a>
-                <a href="#testimonial" className="nav-item nav-link">Testimonial</a>
+                <a href="#testimonial" className="nav-item nav-link">Testimonial</a> */}
                 <a href="#contact" className="nav-item nav-link">Contact</a>
             </div>
         </div>
@@ -47,11 +48,11 @@ class Home extends React.Component{
                     <div className="typed-text d-none">Web Designer, Web Developer, Backend Developer, APIs Designer</div>
                     <div className="d-flex align-items-center pt-5">
                         <a href="" className="btn btn-primary py-3 px-4 me-5">Download CV</a>
-                        <button type="button" className="btn-play" data-bs-toggle="modal"
+                        {/* <button type="button" className="btn-play" data-bs-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
-                        </button>
-                        <h5 className="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
+                        </button> 
+                        <h5 className="ms-4 mb-0 d-none d-sm-block">Play Video</h5>*/}
                     </div>
                 </div>
                 <div className="col-lg-6">
@@ -280,7 +281,7 @@ class Home extends React.Component{
         </div>
     </div>
 
-    <div className="container-fluid bg-light my-5 py-6" id="service">
+    {/* <div className="container-fluid bg-light my-5 py-6" id="service">
         <div className="container">
             <div className="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div className="col-lg-6">
@@ -341,8 +342,8 @@ class Home extends React.Component{
                 </div>
             </div>
         </div>
-    </div>
-
+    </div> 
+*/}
 
     <div className="container-xxl py-6 pt-5" id="project">
         <div className="container">
@@ -359,56 +360,59 @@ class Home extends React.Component{
                 </div>
             </div>
             <div className="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
-                <div className="col-lg-4 col-md-6 portfolio-item first">
-                    <div className="portfolio-img rounded overflow-hidden">
-                        <img className="img-fluid" src="assets/img/project-1.jpg" alt=""/>
-                        <div className="portfolio-btn">
-                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/project-1.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
-                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i className="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
+          
                 <div className="col-lg-4 col-md-6 portfolio-item second">
                     <div className="portfolio-img rounded overflow-hidden">
-                        <img className="img-fluid" src="assets/img/project-2.jpg" alt=""/>
+                        <img className="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAyEn-fNeiYZOJM-CxTwHOYaa65-2IHAtb-Z5dBzRe1LGLZMagkTXsDIvlR3Np8RpQQTgGyz5onAlsYdKnDYwzM9zL7pXDHRJ3P0JpwIhkW-0WLv6KtIe4H0cx0cA-4itMLk9IdmdJUBQ/s1600/colorreelfilms.com.png" alt=""/>
                         <div className="portfolio-btn">
-                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/project-2.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
+                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAyEn-fNeiYZOJM-CxTwHOYaa65-2IHAtb-Z5dBzRe1LGLZMagkTXsDIvlR3Np8RpQQTgGyz5onAlsYdKnDYwzM9zL7pXDHRJ3P0JpwIhkW-0WLv6KtIe4H0cx0cA-4itMLk9IdmdJUBQ/s1600/colorreelfilms.com.png" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
                             <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i className="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 portfolio-item first">
                     <div className="portfolio-img rounded overflow-hidden">
-                        <img className="img-fluid" src="assets/img/project-3.jpg" alt=""/>
+                        <img className="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjypc2veZVKy9vZ-c64L8Q0trnfkA4UNAifjMqKVzSrTfVZDVdALs_oSSEER_twxFtjjGKT_oiClwahEw3Fv8MN_5rFvyDQLS63coT40b8DgH7Z4VdYpos6OLC6Rkt1_903HMuCFwgXlUc/s1600/kgcci.png" alt="" />
                         <div className="portfolio-btn">
-                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/project-3.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
+                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjypc2veZVKy9vZ-c64L8Q0trnfkA4UNAifjMqKVzSrTfVZDVdALs_oSSEER_twxFtjjGKT_oiClwahEw3Fv8MN_5rFvyDQLS63coT40b8DgH7Z4VdYpos6OLC6Rkt1_903HMuCFwgXlUc/s1600/kgcci.png" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
+                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i className="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="col-lg-4 col-md-6 portfolio-item second">
+                    <div className="portfolio-img rounded overflow-hidden">
+                        <img className="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit8GC9nsDpxqP7qwdN1AvABwIHRI0Dr4ErS2eskv4Dx3UYsq4SVm-KS8-nIFaTsvhdNxNXHDAeRSrIfovoh679mntc5np5qLO7FpIGNuRxAaoL_Msdi3zJ2Xhg111vR4qMoxZi3VMhnDM/s1600/gofit.bh.png" alt=""   />
+                        <div className="portfolio-btn">
+                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit8GC9nsDpxqP7qwdN1AvABwIHRI0Dr4ErS2eskv4Dx3UYsq4SVm-KS8-nIFaTsvhdNxNXHDAeRSrIfovoh679mntc5np5qLO7FpIGNuRxAaoL_Msdi3zJ2Xhg111vR4qMoxZi3VMhnDM/s1600/gofit.bh.png" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
                             <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i className="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 portfolio-item second">
                     <div className="portfolio-img rounded overflow-hidden">
-                        <img className="img-fluid" src="assets/img/project-4.jpg" alt=""/>
+                        <img className="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN-eOMleB2W5_OQtcQyg3kxcxFp7rS6jESqhzDBCVukt1oN0PDr82LKNQczUCZUhdRm4kPpW2TzgXJbG3V7xPjQwqGpJqAVms4OyA9qZu2jZt_Dr_0ZPseXVzKIulz-H09e2Gh1EqKkG8/s640/ewan.png" alt=""/>
                         <div className="portfolio-btn">
-                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/project-4.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
+                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN-eOMleB2W5_OQtcQyg3kxcxFp7rS6jESqhzDBCVukt1oN0PDr82LKNQczUCZUhdRm4kPpW2TzgXJbG3V7xPjQwqGpJqAVms4OyA9qZu2jZt_Dr_0ZPseXVzKIulz-H09e2Gh1EqKkG8/s640/ewan.png" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
                             <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i className="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 portfolio-item first">
                     <div className="portfolio-img rounded overflow-hidden">
-                        <img className="img-fluid" src="assets/img/project-5.jpg" alt=""/>
+                        <img className="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzO8ymtuAooS3V5mF3f16lAXuE8QTv597oYIQhNg5cYmoRGK2wtbOnTb2uUh3QFlnGJDhQFYA6T8nBGX26llPP_uNC71bghfW9_lnx_3dMffomGawuSCVcefZ8QSqnZvukZ0IQUi2GTFI/s640/screenshot-www.activeacademy.net-2020.05.02-20_08_18.png" alt=""  />
                         <div className="portfolio-btn">
-                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/project-5.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
+                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzO8ymtuAooS3V5mF3f16lAXuE8QTv597oYIQhNg5cYmoRGK2wtbOnTb2uUh3QFlnGJDhQFYA6T8nBGX26llPP_uNC71bghfW9_lnx_3dMffomGawuSCVcefZ8QSqnZvukZ0IQUi2GTFI/s640/screenshot-www.activeacademy.net-2020.05.02-20_08_18.png" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
                             <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i className="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 portfolio-item second">
+                
+                <div className="col-lg-4 col-md-6 portfolio-item first">
                     <div className="portfolio-img rounded overflow-hidden">
-                        <img className="img-fluid" src="assets/img/project-6.jpg" alt=""/>
+                        <img className="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTt4E7sFy5Hn7jH_ay_wUHwchFxE7vkjuXtUSLA9A9jeRv6_VJl-Gk22mLbgf0lckmYCbDslm07Reg5P6SPZEO372x56an0agGOBRosBuKfn0uZDInkWEWiG1XEzi3adxD8SixzkMxY7I/s1600/yachtpluscrew.com.png" alt=""/>
                         <div className="portfolio-btn">
-                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/project-6.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
+                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTt4E7sFy5Hn7jH_ay_wUHwchFxE7vkjuXtUSLA9A9jeRv6_VJl-Gk22mLbgf0lckmYCbDslm07Reg5P6SPZEO372x56an0agGOBRosBuKfn0uZDInkWEWiG1XEzi3adxD8SixzkMxY7I/s1600/yachtpluscrew.com.png" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
                             <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i className="fa fa-link"></i></a>
                         </div>
                     </div>
@@ -416,7 +420,7 @@ class Home extends React.Component{
             </div>
         </div>
     </div>
-
+{/*
     <div className="container-xxl py-6 pb-5" id="team">
         <div className="container">
             <div className="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -467,7 +471,7 @@ class Home extends React.Component{
             </div>
         </div>
     </div>
-
+    
     <div className="container-fluid bg-light py-5 my-5" id="testimonial">
         <div className="container-fluid py-5">
             <h1 className="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonial</h1>
@@ -529,7 +533,7 @@ class Home extends React.Component{
             </div>
         </div>
     </div>
-
+    */}
     <div className="container-xxl pb-5" id="contact">
         <div className="container py-5">
             <div className="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -561,7 +565,7 @@ class Home extends React.Component{
                     </div>
                 </div>
                 <div className="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p className="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href=" ">Download Now</a>.</p>
+                    {/* <p className="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href=" ">Download Now</a>.</p> */}
                     <form>
                         <div className="row g-3">
                             <div className="col-md-6">
@@ -602,11 +606,11 @@ class Home extends React.Component{
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a className="border-bottom text-secondary" href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a className="border-bottom text-secondary" href="#">Praveen</a>, All Right Reserved.
                     </div>
                     <div className="col-md-6 text-center text-md-end">                               
-                        Designed By <a className="border-bottom text-secondary" href="">HTML Codex</a>
-                        <br/>Distributed By: <a className="border-bottom" href="" target="_blank">ThemeWagon</a>
+                        Designed By <a className="border-bottom text-secondary" href="">Praveen Kumar</a>
+                        <br/>Distributed By: <a className="border-bottom" href="" target="_blank">Software Engineer</a>
                     </div>
                 </div>
             </div>
