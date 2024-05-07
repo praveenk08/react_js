@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-
+import { Link } from "react-router-dom";
 class LoginRegister extends React.Component {
   render() {
     return (
@@ -25,10 +25,10 @@ class LoginRegister extends React.Component {
                   <h4>Login & Register</h4>
                   <ul>
                     <li>
-                      <a href="index.html">home</a>
+                      <Link to={"/"}>home</Link>
                     </li>
                     <li>
-                      <a href="#">Login & Register</a>
+                      <Link to={"/login"}>Login & Register</Link>
                     </li>
                   </ul>
                 </div>
@@ -44,18 +44,30 @@ class LoginRegister extends React.Component {
                 <span className="or-space">or</span>
                 <div className="register">
                   <h2>register</h2>
-                    <form>
-                        <fieldset><input type="text" placeholder="First Name"/></fieldset>
-                        <fieldset><input type="text" placeholder="Last Name"/></fieldset>
-                        <fieldset><input type="text" placeholder="User Name"/></fieldset>
-                        <fieldset><input type="password" placeholder="Password"/></fieldset>
-                            <div className="chkbox">
-                            <input type="checkbox"  id="squaredThree" checked />
-                            <label htmlFor="squaredThree"></label>
-                        </div>  
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, reased do eius mod tempor incididunt ut labore et dolore magna .</p>
-                        <button className="btn1">sing up</button>
-                    </form>
+                  <form>
+                    <fieldset>
+                      <input type="text" placeholder="First Name" />
+                    </fieldset>
+                    <fieldset>
+                      <input type="text" placeholder="Last Name" />
+                    </fieldset>
+                    <fieldset>
+                      <input type="text" placeholder="User Name" />
+                    </fieldset>
+                    <fieldset>
+                      <input type="password" placeholder="Password" />
+                    </fieldset>
+                    <div className="chkbox">
+                      <input type="checkbox" id="squaredThree" checked />
+                      <label htmlFor="squaredThree"></label>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      reased do eius mod tempor incididunt ut labore et dolore
+                      magna .
+                    </p>
+                    <button className="btn1">sing up</button>
+                  </form>
                 </div>
               </div>
               <div className="col-md-6 col-sm-12">
@@ -64,11 +76,15 @@ class LoginRegister extends React.Component {
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                   </p>
-                    <form>
-                        <fieldset><input type="text" placeholder="Username"/></fieldset>
-                        <fieldset><input type="password" placeholder="Password"/></fieldset>
-                        <button className="btn1">Login</button>
-                    </form>
+                  <form>
+                    <fieldset>
+                      <input type="text" placeholder="Username" />
+                    </fieldset>
+                    <fieldset>
+                      <input type="password" placeholder="Password" />
+                    </fieldset>
+                    <button className="btn1">Login</button>
+                  </form>
                   <span className="orlog">Or login With ..</span>
                   <ul>
                     <li>

@@ -1,9 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import {
-    Link
-  } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Aboutus extends React.Component {
   render() {
@@ -29,10 +27,10 @@ class Aboutus extends React.Component {
                   <h4>About us</h4>
                   <ul>
                     <li>
-                    <Link to={'/'}>home</Link>
+                      <Link to={"/"}>home</Link>
                     </li>
                     <li>
-                      <Link to={'/about-us'}>About us</Link>
+                      <Link to={"/about-us"}>About us</Link>
                     </li>
                   </ul>
                 </div>
@@ -75,17 +73,15 @@ class Aboutus extends React.Component {
                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
                     odit autfugit, sed quia consequuntur magni dolores.
                   </p>
-                  <a href="#" className="btn1">
+                  <aLink to={"/"}className="btn1">
                     Shop Now
-                  </a>
+                  </aLink>
                   <img src="assets/images/about/sing.png" alt="" />
                 </div>
               </div>
             </div>
           </div>
         </section>
-
-       
 
         <section className="collection-area section">
           <div className="container">
@@ -116,9 +112,9 @@ class Aboutus extends React.Component {
                     perspiciatis unde omnis iste atus error sit voluptatem
                     accusantium doloremque laudantium,
                   </p>
-                  <a href="#" className="btn1">
+                  <Link to={"/"} className="btn1">
                     For him
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -149,9 +145,9 @@ class Aboutus extends React.Component {
                     perspiciatis unde omnis iste atus error sit voluptatem
                     accusantium doloremque laudantium,
                   </p>
-                  <a href="#" className="btn1">
+                  <Link to={"/"} className="btn1">
                     For her
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
