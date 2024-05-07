@@ -10,6 +10,140 @@ class Footer extends React.Component{
     render(){
         return( 
 <>
+<section class="daily-deal pd-t100 pd-b50 jarallax bg-img af">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="recent-post widghet">
+                            <h4>Post From Blog</h4>
+                            <div class="post-list">
+                                <figure>
+                                    <img src="images/collections/4.jpg" alt=""/>
+                                </figure>
+                                <div class="content">
+                                    <h5><a href="#">This is Photoshop's version  of  lorem</a></h5>
+                                    <span>Dec 6 2015</span>
+                                </div>
+                            </div>
+                            <div class="post-list">
+                                <figure>
+                                    <img src="images/collections/4.jpg" alt=""/>
+                                </figure>
+                                <div class="content">
+                                    <h5><a href="#">This is Photoshop's version  of  lorem</a></h5>
+                                    <span>Dec 6 2015</span>
+                                </div>
+                            </div>
+                            <div class="post-list">
+                                <figure>
+                                    <img src="images/collections/4.jpg" alt=""/>
+                                </figure>
+                                <div class="content">
+                                    <h5><a href="#">This is Photoshop's version  of  lorem</a></h5>
+                                    <span>Dec 6 2015</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="products-deal widghet">
+                            <h4>Top seller products</h4>
+                            <div class="product-lists">
+                                <figure>
+                                    <img src="images/collections/4.jpg" alt=""/>
+                                </figure>
+                                <div class="content">
+                                    <h5><a href="#">This is Photoshop's version  of  lorem</a></h5>
+                                    <span>$32</span>
+                                </div>
+                            </div>
+                            <div class="product-lists">
+                                <figure>
+                                    <img src="images/collections/5.jpg" alt=""/>
+                                </figure>
+                                <div class="content">
+                                    <h5><a href="#">This is Photoshop's version  of  lorem</a></h5>
+                                    <span>$32</span>
+                                </div>
+                            </div>
+                            <div class="product-lists">
+                                <figure>
+                                    <img src="images/collections/6.jpg" alt=""/>
+                                </figure>
+                                <div class="content">
+                                    <h5><a href="#">This is Photoshop's version  of  lorem</a></h5>
+                                    <span>$32</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="products-deal widghet">
+                            <h4>Trendy Products</h4>
+                            <div class="product-lists">
+                                <figure>
+                                    <img src="images/collections/4.jpg" alt=""/>
+                                </figure>
+                                <div class="content">
+                                    <h5><a href="#">This is Photoshop's version  of  lorem</a></h5>
+                                    <span>$32</span>
+                                </div>
+                            </div>
+                            <div class="product-lists">
+                                <figure>
+                                    <img src="images/collections/5.jpg" alt=""/>
+                                </figure>
+                                <div class="content">
+                                    <h5><a href="#">This is Photoshop's version  of  lorem</a></h5>
+                                    <span>$32</span>
+                                </div>
+                            </div>
+                            <div class="product-lists">
+                                <figure>
+                                    <img src="images/collections/6.jpg" alt=""/>
+                                </figure>
+                                <div class="content">
+                                    <h5><a href="#">This is Photoshop's version  of  lorem</a></h5>
+                                    <span>$32</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="products-deal widghet">
+                            <h4>Daily Deal Products</h4>
+                            <div class="product-lists">
+                                <figure>
+                                    <img src="images/collections/4.jpg" alt=""/>
+                                </figure>
+                                <div class="content">
+                                    <h5><a href="#">This is Photoshop's version  of  lorem</a></h5>
+                                    <span>$32</span>
+                                </div>
+                            </div>
+                            <div class="product-lists">
+                                <figure>
+                                    <img src="images/collections/5.jpg" alt=""/>
+                                </figure>
+                                <div class="content">
+                                    <h5><a href="#">This is Photoshop's version  of  lorem</a></h5>
+                                    <span>$32</span>
+                                </div>
+                            </div>
+                            <div class="product-lists">
+                                <figure>
+                                    <img src="images/collections/6.jpg" alt=""/>
+                                </figure>
+                                <div class="content">
+                                    <h5><a href="#">This is Photoshop's version  of  lorem</a></h5>
+                                    <span>$32</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 <footer>
             <div className="footer-top">
                 <div className="container">

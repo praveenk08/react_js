@@ -1,9 +1,6 @@
 
 import React from "react";
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
 
@@ -26,9 +23,10 @@ class Header extends React.Component{
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div className="topber-link text-right">
                     <ul className="list-inline">
-                        <li><a href="login.html"><span><i className="fa fa-unlock-alt"></i></span>Login</a></li>
-                        <li><a href="login.html"><span><i className="fa fa-pencil"></i></span>Register</a></li>
-                        <li><a href="#"><span><i className="fa fa-heart"></i></span>Wishlist</a></li>
+                        <li>
+                        <Link to={'/login'}>Login<span><i className="fa fa-unlock-alt"></i></span></Link></li>
+                        <li><Link to={'/register'}><span><i className="fa fa-pencil"></i></span>Register</Link></li>
+                       
                         <li><a href="#" className="cart-btns"><i className="fa fa-shopping-cart"></i>My Cart (0)</a></li>
                     </ul>
                 </div>
@@ -61,150 +59,10 @@ class Header extends React.Component{
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div className="menu-list">
                     <nav>
-                        <ul className="list-inline">
-                            <li className="lists-menus">
-                                <a href="index.html">Home</a>
-                                <ul className="list-menu">
-                                    <li><a href="index.html">Home One</a></li>
-                                    <li><a href="index2.html">Home two</a></li>
-                                    <li><a href="index3.html">Home three</a></li>
-                                    <li><a href="index4.html">Home four</a></li>
-                                    <li><a href="index5.html">Home five</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">MENS</a>
-                                
-                                <div className="megamenu">
-                                    <div className="container">
-                                        <div className="row">
-                                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 pd-0">
-                                                <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                    <div className="links">
-                                                        <h4>men</h4>
-                                                        <ul>
-                                                            <li><a href="shop-recommend.html">Accessories</a></li>
-                                                            <li><a href="shop-recommend.html">Women</a></li>
-                                                            <li><a href="shop-recommend.html">men</a></li>
-                                                            <li><a href="shop-recommend.html">Teens</a></li>
-                                                            <li><a href="shop-recommend.html">Kids</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                    <div className="links">
-                                                        <h4>men</h4>
-                                                        <ul>
-                                                            <li><a href="shop-recommend.html">Accessories</a></li>
-                                                            <li><a href="shop-recommend.html">Women</a></li>
-                                                            <li><a href="shop-recommend.html">men</a></li>
-                                                            <li><a href="shop-recommend.html">Teens</a></li>
-                                                            <li><a href="shop-recommend.html">Kids</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                    <div className="links">
-                                                        <h4>men</h4>
-                                                        <ul>
-                                                            <li><a href="shop-recommend.html">Accessories</a></li>
-                                                            <li><a href="shop-recommend.html">Women</a></li>
-                                                            <li><a href="shop-recommend.html">men</a></li>
-                                                            <li><a href="shop-recommend.html">Teens</a></li>
-                                                            <li><a href="shop-recommend.html">Kids</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                    <div className="links">
-                                                        <h4>men</h4>
-                                                        <ul>
-                                                            <li><a href="shop-recommend.html">Accessories</a></li>
-                                                            <li><a href="shop-recommend.html">Women</a></li>
-                                                            <li><a href="shop-recommend.html">men</a></li>
-                                                            <li><a href="shop-recommend.html">Teens</a></li>
-                                                            <li><a href="shop-recommend.html">Kids</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">WOMENS</a>
-                                <div className="megamenu">
-                                    <div className="container">
-                                        <div className="row">
-                                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 pd-0">
-                                                <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                    <div className="links">
-                                                        <h4>Shop</h4>
-                                                        <ul>
-                                                            <li><a href="shop-recommend.html">product</a></li>
-                                                            <li><a href="shop-recommend.html">Women</a></li>
-                                                            <li><a href="shop-recommend.html">men</a></li>
-                                                            <li><a href="shop-recommend.html">Teens</a></li>
-                                                            <li><a href="shop-recommend.html">Kids</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                    <div className="links">
-                                                        <h4>men</h4>
-                                                        <ul>
-                                                            <li><a href="shop-recommend.html">Accessories</a></li>
-                                                            <li><a href="shop-recommend.html">Women</a></li>
-                                                            <li><a href="shop-recommend.html">men</a></li>
-                                                            <li><a href="shop-recommend.html">Teens</a></li>
-                                                            <li><a href="shop-recommend.html">Kids</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                    <div className="links">
-                                                        <h4>men</h4>
-                                                        <ul>
-                                                            <li><a href="shop-recommend.html">Accessories</a></li>
-                                                            <li><a href="shop-recommend.html">Women</a></li>
-                                                            <li><a href="shop-recommend.html">men</a></li>
-                                                            <li><a href="shop-recommend.html">Teens</a></li>
-                                                            <li><a href="shop-recommend.html">Kids</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                    <div className="links">
-                                                        <div className="menu-slider">
-                                                            <figure><img src="images/products/2.jpg" alt=""/></figure>
-                                                            <figure><img src="images/products/3.jpg" alt=""/></figure>
-                                                            <figure><img src="images/products/4.jpg" alt=""/></figure>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li><a href="shop.html">SHOP</a></li>
-                            <li className="lists-menus">
-                                <a href="#">pages</a>
-                                <ul className="list-menu">
-                                    <li><a href="about.html">about</a></li>
-                                    <li><a href="blog.html">blog</a></li>
-                                    <li><a href="blog-single.html">blog single</a></li>
-                                    <li><a href="shop-filter.html">shop filter</a></li>
-                                    <li><a href="shop-recommend.html">shop recommend</a></li>
-                                    <li><a href="shop-single.html">shop-single</a></li>
-                                    <li><a href="checkout.html">checkout</a></li>
-                                    <li><a href="wishlist.html">wishlist</a></li>
-                                    <li><a href="compare.html">compare</a></li>
-                                    <li><a href="login.html">Login Register</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">CONTACT</a></li>
+                        <ul className="list-inline">                            
+                            <li><Link to={'/'}>Home</Link></li>
+                            <li><Link to={'/about-us'}>About</Link></li>
+                            <li><Link to={'/contact-us'}>CONTACT</Link></li>
                         </ul>
                     </nav>
                 </div>
@@ -213,7 +71,7 @@ class Header extends React.Component{
                         <li className="search-box">
                             <input type="text" className="search-box"/>
                         </li>
-                        <li className="search-box-icon"><a href="#"><i className="fa fa-search" aria-hidden="true"></i></a></li>
+                        <li className="search-box-icon"><Link to={'/'}><i className="fa fa-search" aria-hidden="true"></i></Link></li>
                     </ul>
                 </div>
                 
@@ -221,35 +79,9 @@ class Header extends React.Component{
                     <div className="mobile-menu visible-sm visible-xs">
                         <nav>
                             <ul>
-                                <li><a href="#">Home</a>
-                                    <ul>
-                                        <li><a href="index.html">Home One</a></li>
-                                        <li><a href="index2.html">Home two</a></li>
-                                        <li><a href="index3.html">Home three</a></li>
-                                        <li><a href="index4.html">Home four</a></li>
-                                        <li><a href="index5.html">Home five</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="shop-recommend.html">mens</a></li>
-                                <li><a href="shop-recommend.html">WOMENS</a></li>
-                                <li><a href="shop.html">SHOP</a></li>
-                                <li>
-                                    <a href="#">pages</a>
-                                    <ul className="list-menu">
-                                        <li><a href="about.html">about</a></li>
-                                        <li><a href="blog.html">blog</a></li>
-                                        <li><a href="blog-single.html">blog single</a></li>
-                                        <li><a href="shop-filter.html">shop filter</a></li>
-                                        <li><a href="shop-recommend.html">shop recommend</a></li>
-                                        <li><a href="shop-single.html">shop-single</a></li>
-                                        <li><a href="checkout.html">checkout</a></li>
-                                        <li><a href="wishlist.html">wishlist</a></li>
-                                        <li><a href="compare.html">compare</a></li>
-                                        <li><a href="login.html">Login Register</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">contact</a></li>
-
+                                <li><Link to={'/'}>Home</Link></li>
+                                <li><Link to={'/about-us'}>About</Link></li>
+                                <li><Link to={'/contact-us'}>CONTACT</Link></li>
                             </ul>
                         </nav>
                     </div>
@@ -329,7 +161,7 @@ class Header extends React.Component{
                     </tr>
                 </tbody>
             </table>
-            <a href="#" className="btn1 floatright mr-t25">checkout</a>
+            <Link to={'/'} className="btn1 floatright mr-t25">checkout</Link>
         </div>
     </div>
     
